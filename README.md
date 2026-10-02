@@ -1,5 +1,16 @@
 # Smart Helmet
 
+<p align="center">
+  <img src="docs/images/helmet01.jpeg" alt="Smart Helmet prototype — front view" width="45%" />
+  <img src="docs/images/helmet02.jpeg" alt="Smart Helmet prototype — side view" width="45%" />
+</p>
+<p align="center"><em>Smart Helmet prototype — front and side views.</em></p>
+
+<p align="center">
+  <img src="docs/images/app-working.png" alt="Android app displaying a route, elapsed time, and speed in the emulator" width="90%" />
+</p>
+<p align="center"><em>Android app — route display, elapsed time, and speed.</em></p>
+
 Recovered monorepo for a Smart Helmet prototype: an Android application, a Node.js/Express API, and ESP32/Arduino sketches. This import preserves the existing code and dependency versions; it does not claim that the old prototype is ready for deployment or that every feature works end to end.
 
 ## Repository layout
