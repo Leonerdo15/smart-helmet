@@ -105,7 +105,3 @@ Source-level relationships are confirmed, but execution across the components is
 - Firmware telemetry has no `po_velocity`, but Android reads that key before building the point upload. Android also sends `po_tempInside` / `po_distancia`, while the backend expects `po_TempInside` / `po_DistUltraSound`.
 - The point insertion model does not insert the supplied location despite accepting it as an argument.
 - The IMU sketch has a one-argument `send_event` forward declaration and a two-argument definition/call. Its high impact threshold has not been calibrated or validated.
-
-These are original implementation issues, not fixes included in this consolidation. The historical login/API behavior and SQL construction are also preserved. Static verification does not establish deployment readiness.
-
-See [IMPORT_NOTES.md](IMPORT_NOTES.md) for exact source revisions, excluded files, sanitization, and completed checks. No Android/ESP32 build, database-backed API test, camera receiver test, or hardware test was performed.
