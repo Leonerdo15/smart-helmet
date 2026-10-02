@@ -1,0 +1,50 @@
+# Android / IDE state
+.idea/
+*.iml
+.gradle/
+build/
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.dex
+*.class
+
+# Node.js dependencies, runtime state, and local configuration
+node_modules/
+.env
+.env.*
+!.env.example
+logs/
+*.log
+*.pid
+*.pid.lock
+coverage/
+.nyc_output/
+.npm/
+
+# Firmware output and local credentials (example headers remain tracked)
+helmet_config.h
+.pio/
+.arduino/
+*.elf
+*.hex
+*.bin
+*.o
+*.a
+*.map
+
+# Local signing / TLS credentials
+*.jks
+*.keystore
+*.key
+/backend/bin/ca.crt
+/backend/bin/cert.pem
+/backend/bin/key.pem
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
